@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contener{
+    width: 100%;           
+    max-width: 1200px;     
+    margin: 0 auto;        
+    padding: 20px;         
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    box-sizing: border-box; 
+}
+body{
+    background-image: url(https://suret.pics/uploads/posts/2023-09/1695366146_1-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin: 100px;
+    display: flex;
+
+}
+.main{
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+}
+.kinopka-1 input{
+    margin: 50px;
+    transition: 6s;
+    border-radius: 50px;
+    height: 50px;
+    width: 500px;
+    animation: yaxshi 9s infinite ;
+    animation-direction: alternate;
+}
+.kinopka-1 input:hover{
+    background-color: rgb(23, 195, 23);
+    transform: scale(1.1)
+}
+@keyframes yaxshi{
+    50%{box-shadow: 3px 9px 5px black;}
+    30%{box-shadow: 3px 5px 3px black;}
+    0%{ background-color: red; color: black;}
+    10%{background-color: yellow; color: white;}
+    30%{background-color: green; color: antiquewhite;}
+    50%{background-color: aqua;}
+    60%{background-color: white;}
+    70%{background-color: brown;}
+    100%{background-color: black; color: white;}
+}
+.kirish form input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: green;
+}
